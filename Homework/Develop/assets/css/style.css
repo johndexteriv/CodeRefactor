@@ -126,7 +126,7 @@ p {
     max-width: 150px;
 }
 
-#main {
+.main {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -135,7 +135,7 @@ p {
     color: #ffffff;
 }
 
-#h2 {
+.h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
