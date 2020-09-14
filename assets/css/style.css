@@ -1,13 +1,16 @@
+/* Set border-box sizing to all content boxes */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets background color to page body element */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets padding, font family, background color and text color to header element */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Sets h1 display style and font size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes text color of .seo within .header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Changes padding, margin, float, font-family and font-size to nav headers nav links */
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,15 +38,18 @@ body {
     font-size: 20px;
 }
 
+/* Removes bullets from nav ul */
 .header section ul {
     list-style-type: none;
 }
 
+/* Sets display style and left margin for nav ul li */
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets color and removes underline decoration to nav links  */
 a {
     color: #ffffff;
     text-decoration: none;
